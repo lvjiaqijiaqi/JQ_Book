@@ -2,7 +2,7 @@
 
 1.准备工作
 
-安装cmake brew install cmake
+安装cmake brew install cmake (3.24以上版本)
 安装Ninja brew install ninja
 
 下载LLVM-project https://github.com/llvm/llvm-project
