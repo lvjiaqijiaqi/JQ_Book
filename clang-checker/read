@@ -16,35 +16,26 @@ cd build
 ninja && ninja install
 
 2.项目配置
-搭建外部编译环境生成xcode工程
 
+/*CMakeLists.txt*/
 cmake_minimum_required(VERSION 3.19)
 project(MYClangCheckerPlugin)
 set(CMAKE_OSX_ARCHITECTURES "x86_64")
-
 set(CODE_SIGNING_ALLOWED NO)
-
 # 设置 llvm 依赖
 set(CMAKE_PREFIX_PATH ${CMAKE_PREFIX_PATH} "../llvm_release/lib/cmake/llvm" "../llvm_release/lib/cmake/clang")
-
 # 设置 CXX 版本
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${LLVM_COMPILE_FLAGS} -Wall -fno-rtti -std=c++14 -stdlib=libc++ -D__STDC_CONSTANT_MACROS -D__STDC_LIMIT_MACROS")
-
-
 # 设置 clang和llvm
 find_package(LLVM REQUIRED CONFIG)
 include_directories(${LLVM_INCLUDE_DIRS})
 add_definitions(${LLVM_DEFINITIONS})
-
 find_package(Clang REQUIRED CONFIG)
 include_directories(${CLANG_INCLUDE_DIRS})
 add_definitions(${Clang_DEFINITIONS})
-
 set(CMAKE_MODULE_LINKER_FLAGS "-Wl,-flat_namespace -Wl,-undefined -Wl,suppress")
-
 # 引入 src 头文件
 include_directories(src)
-
 # 添加 Plugin Target
 add_library(MYClangCheckerPlugin
   SHARED
@@ -52,4 +43,8 @@ add_library(MYClangCheckerPlugin
   ${PROJECT_SOURCE_DIR}/src/*.h
 )
 
+3.安装项目
+mkdir build
+cd build
+cmake .. -G Xcode
 
