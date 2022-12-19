@@ -1,5 +1,6 @@
-clang-checker
+自定义clang-checker
 
+1.准备工作
 下载cmake > cmake version 3.24.3
 
 下载LLVM-project https://github.com/llvm/llvm-project
