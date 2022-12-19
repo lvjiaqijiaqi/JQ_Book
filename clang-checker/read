@@ -1,6 +1,7 @@
 自定义clang-checker
 
 1.准备工作
+
 安装cmake brew install cmake
 安装Ninja brew install ninja
 
@@ -14,6 +15,7 @@ cmake -S ../llvm-project/llvm -B build -G Ninja -DLLVM_ENABLE_PROJECTS="clang" -
 cd build
 ninja && ninja install
 
+2.项目配置
 搭建外部编译环境生成xcode工程
 
 cmake_minimum_required(VERSION 3.19)
