@@ -2,7 +2,7 @@
 
 1.准备工作
 安装cmake brew install cmake
-安装Ninja 
+安装Ninja brew install ninja
 
 下载LLVM-project https://github.com/llvm/llvm-project
 git clone https://github.com/llvm/llvm-project.git -b  llvmorg-13.0.0
