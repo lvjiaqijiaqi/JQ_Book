@@ -1,7 +1,8 @@
 自定义clang-checker
 
 1.准备工作
-下载cmake > cmake version 3.24.3
+安装cmake brew install cmake
+安装Ninja 
 
 下载LLVM-project https://github.com/llvm/llvm-project
 git clone https://github.com/llvm/llvm-project.git -b  llvmorg-13.0.0
