@@ -1,0 +1,6 @@
+framework module JQ_bundle_source {
+  umbrella header "JQ_bundle_source-umbrella.h"
+
+  export *
+  module * { export * }
+}
