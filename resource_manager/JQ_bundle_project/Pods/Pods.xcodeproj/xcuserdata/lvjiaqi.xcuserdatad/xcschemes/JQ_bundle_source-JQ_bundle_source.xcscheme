@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BB009C1835B5AC5EDBC6AFECD7CA000A"
-               BuildableName = "JQ_bundle_source.bundle"
+               BuildableName = "JQ_bundle_source-JQ_bundle_source.bundle"
                BlueprintName = "JQ_bundle_source-JQ_bundle_source"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
