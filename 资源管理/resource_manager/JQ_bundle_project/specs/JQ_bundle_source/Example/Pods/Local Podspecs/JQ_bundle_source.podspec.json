@@ -1,0 +1,22 @@
+{
+  "name": "JQ_bundle_source",
+  "version": "0.1.0",
+  "summary": "A short description of JQ_bundle_source.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lvjiaqi/JQ_bundle_source",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lvjiaqi": "405164649@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/lvjiaqi/JQ_bundle_source.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "JQ_bundle_source/Classes/**/*"
+}

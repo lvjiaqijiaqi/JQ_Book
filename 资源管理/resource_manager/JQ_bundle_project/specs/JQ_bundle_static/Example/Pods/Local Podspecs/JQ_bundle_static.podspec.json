@@ -1,0 +1,24 @@
+{
+  "name": "JQ_bundle_static",
+  "version": "0.1.0",
+  "summary": "A short description of JQ_bundle_static.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lvjiaqi/JQ_bundle_static",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lvjiaqi": "405164649@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/lvjiaqi/JQ_bundle_static.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "JQ_bundle_source/Classes/**/*",
+  "resources": "JQ_bundle_static/JQ_bundle_static.bundle",
+  "static_framework": true
+}

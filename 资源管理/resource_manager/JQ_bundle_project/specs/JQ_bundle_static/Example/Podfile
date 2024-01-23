@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'JQ_bundle_static_Example' do
+  pod 'JQ_bundle_static', :path => '../'
+
+  target 'JQ_bundle_static_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,5 @@
+ extern const unsigned char JQ_bundle_sourceVersionString[];
+ extern const double JQ_bundle_sourceVersionNumber;
+
+ const unsigned char JQ_bundle_sourceVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:JQ_bundle_source  PROJECT:Pods-1" "\n";
+ const double JQ_bundle_sourceVersionNumber __attribute__ ((used)) = (double)1.;

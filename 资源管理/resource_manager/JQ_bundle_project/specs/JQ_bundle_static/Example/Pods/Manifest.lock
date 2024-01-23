@@ -1,0 +1,16 @@
+PODS:
+  - JQ_bundle_static (0.1.0)
+
+DEPENDENCIES:
+  - JQ_bundle_static (from `../`)
+
+EXTERNAL SOURCES:
+  JQ_bundle_static:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JQ_bundle_static: 9c8ea454a9a40edf76aeb9cd542db1c6f2ba10d4
+
+PODFILE CHECKSUM: 61983617dea3e1a6d01e2d8e8886ca4846de3d84
+
+COCOAPODS: 1.10.1

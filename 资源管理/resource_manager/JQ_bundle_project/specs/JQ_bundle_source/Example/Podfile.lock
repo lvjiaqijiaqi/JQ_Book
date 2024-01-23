@@ -1,0 +1,16 @@
+PODS:
+  - JQ_bundle_source (0.1.0)
+
+DEPENDENCIES:
+  - JQ_bundle_source (from `../`)
+
+EXTERNAL SOURCES:
+  JQ_bundle_source:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JQ_bundle_source: d6b747215a99e138bff82d6e84f555a5aeaeb2d9
+
+PODFILE CHECKSUM: 544b00af79f3cb7922101ff1d2c927c39702e513
+
+COCOAPODS: 1.10.1

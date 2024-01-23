@@ -1,0 +1,50 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e9885b3c8f24657e82c11c4f82bf6279660"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e9832b809f216ceb41c6a4834b7082de069"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98c9abf7090ab4bbf75f4256b7d29847ba"
+    }
+  ],
+  "containerPath" : "/Users/lvjiaqi/Desktop/Github/JQ_bundle_project/specs/JQ_bundle_source/Example/Pods/Pods.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/lvjiaqi/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/lvjiaqi/Library/Developer/Xcode/DerivedData/Pods-edcbdxseayeknucdgrtunzpdfkvz/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/lvjiaqi/Library/Developer/Xcode/DerivedData/Pods-edcbdxseayeknucdgrtunzpdfkvz/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : false
+}

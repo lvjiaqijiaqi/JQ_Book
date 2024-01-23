@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+Target 'Pods-JQ_bundle_source_Tests' in project 'Pods'
+➜ Explicit dependency on target 'Pods-JQ_bundle_source_Example' in project 'Pods'
+Target 'Pods-JQ_bundle_source_Example' in project 'Pods'
+➜ Explicit dependency on target 'JQ_bundle_source' in project 'Pods'
+Target 'JQ_bundle_source' in project 'Pods' (no dependencies)
